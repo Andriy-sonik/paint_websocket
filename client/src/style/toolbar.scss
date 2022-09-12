@@ -1,0 +1,24 @@
+.toolbar{
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 10px;
+    box-shadow: 0 4px 5px gray;
+
+    &__btn,
+    &__input{
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid transparent;
+        outline: none;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid grey;
+        }
+    }
+}

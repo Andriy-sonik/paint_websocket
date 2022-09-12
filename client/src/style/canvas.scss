@@ -1,0 +1,20 @@
+.canvas{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__form{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 0 auto;
+        background: #ccc;
+    }
+}
+
+canvas{
+    border: 1px solid #000;
+    background-color: #fff;
+}
